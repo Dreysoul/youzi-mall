@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="youzi-mall-generator" />
+        <module name="youzi-mall-service-guanggao" />
+        <module name="youzi-mall-web-manager" />
+        <module name="youzi-mall-service-guanggao-api" />
+        <module name="youzi-mall-view-manager" />
+        <module name="youzi-mall-commons-utils" />
+        <module name="youzi-mall-beans-pojo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="youzi-gateway" target="1.8" />
+      <module name="youzi-mall-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="youzi" options="" />
+      <module name="youzi-gateway" options="-parameters" />
+      <module name="youzi-mall" options="" />
+      <module name="youzi-mall-beans" options="" />
+      <module name="youzi-mall-beans-pojo" options="-parameters" />
+      <module name="youzi-mall-commons" options="" />
+      <module name="youzi-mall-commons-utils" options="-parameters" />
+      <module name="youzi-mall-gateway" options="" />
+      <module name="youzi-mall-generator" options="-parameters" />
+      <module name="youzi-mall-service-Impl" options="" />
+      <module name="youzi-mall-service-api" options="" />
+      <module name="youzi-mall-service-guanggao" options="-parameters" />
+      <module name="youzi-mall-service-guanggao-api" options="-parameters" />
+      <module name="youzi-mall-view" options="" />
+      <module name="youzi-mall-view-manager" options="-parameters" />
+      <module name="youzi-mall-web" options="" />
+      <module name="youzi-mall-web-manager" options="-parameters" />
+    </option>
+  </component>
+</project>

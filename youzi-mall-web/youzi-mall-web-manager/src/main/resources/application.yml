@@ -1,0 +1,34 @@
+server:
+  port: 8081
+spring:
+  application:
+    #对应Nacos Config中的Data ID，不是指服务名，实际服务应用名称以配置中心文件为准
+    name: manager-web-app
+  cloud:
+    nacos:
+      discovery:
+        #Nacos注册中心地址
+        server-addr: 127.0.0.1:8848
+        enabled: true
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  thymeleaf:
+    suffix: .html
+    cache: true
+    check-template-location: true
+    encoding: utf-8
+    mode: LEGACYHTML5
+    prefix: classpath:/templates/
+    servlet:
+      content-type: text/html
+
+
+logging:
+  level:
+    root: info
+##开启feign对sentinel的支持 远程调用兜底配置
+#feign:
+#  sentinel:
+#    enabled: true

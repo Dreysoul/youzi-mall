@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-beans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-beans/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-beans/youzi-mall-beans-pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-beans/youzi-mall-beans-pojo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-commons/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-commons/youzi-mall-commons-utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-service-Impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-service-Impl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-service-Impl/youzi-mall-service-guanggao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-service-Impl/youzi-mall-service-guanggao/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-service-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-service-api/youzi-mall-service-guanggao-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-service-api/youzi-mall-service-guanggao-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-view-manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-view/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-view/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-view/youzi-mall-view-manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/youzi-mall-web/youzi-mall-web-manager/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

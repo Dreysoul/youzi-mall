@@ -1,0 +1,7 @@
+# Project exclude paths
+/youzi-mall-beans/youzi-mall-beans-pojo/target/
+/youzi-mall-commons/youzi-mall-commons-utils/target/
+/youzi-mall-generator/target/
+/youzi-mall-service-api/youzi-mall-service-guanggao-api/target/
+/youzi-mall-service-Impl/youzi-mall-service-guanggao/target/
+/youzi-mall-web/youzi-mall-web-manager/target/

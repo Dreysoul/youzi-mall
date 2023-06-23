@@ -1,0 +1,39 @@
+server:
+  port: 8080
+spring:
+  application:
+    #对应Nacos Config中的Data ID，不是指服务名，实际服务应用名称以配置中心文件为准
+    name: advertisements-service
+  datasource:
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/demo-al?serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+  cloud:
+    nacos:
+      discovery:
+        #Nacos注册中心地址
+        server-addr: 127.0.0.1:8848
+        enabled: true
+
+logging:
+  level:
+    root: info
+
+mybatis-plus:
+  configuration:
+    auto-mapping-behavior: full
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:com.youzi.mapper/*.xml
+  type-aliases-package: com.springcloud.alibaba.bean
+
+# Swagger配置
+swagger:
+  base-package: com.youzi.service.impl
+  title: 柚子云购电子电商零售平台
+  contact:
+    name: monkey
+    email: 234323454423@qq.com
+    url: http://www.springcloud alibaba.com
+  version: 1.0
